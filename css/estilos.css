@@ -1,0 +1,446 @@
+
+.post
+{
+	width: 260px;
+	height: 495px;
+	background-color:white;
+	margin: 0 auto;
+	border-radius: 5px;
+	float: left;
+	margin: 8px;
+	box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+    padding-bottom: 15px;
+}
+
+.post h2{
+padding-left: 10px;
+}
+
+.post p{
+padding-left: 10px;
+color:#262626;
+}
+.fecha{
+	font-size: 8px;
+	padding-left: 10px;
+	
+}
+.continuar{
+
+	padding-right: 10px;
+	padding:8px;
+	background-color: grey;
+	color:white;
+	border-radius: 5px;
+	position: relative;
+
+
+
+}
+.continuar:hover{
+	text-decoration: underline;
+	color: orange !important;
+}
+
+
+
+
+.titulo{
+	padding: 0px;
+	padding-left: 10px;
+	color: #3A3C3D;
+	border-left: 7px solid orange;
+	font-size: 18px;
+	height:70px;
+	font-weight: bold;
+
+
+	
+}
+.titulo-single{
+    padding: 10px;
+	padding-left: 10px;
+	color: #3A3C3D;
+	border-left: 5px solid orange;
+	font-size: 25px;
+	font-weight: bold;	
+}
+
+.titulo a{
+color: #3A3C3D !important;
+
+
+
+}
+.titulo a:hover{
+text-decoration: underline; 
+
+}
+
+
+.contenedor-noticias{
+	position: relative;
+	top: -30px;
+	width:  1100px;
+	display: flex;
+	margin: 0 auto;
+	}
+
+
+#ladoDerecho-index{
+	margin-top: 40px;
+	width: 240px;
+	height: 350px;
+	float: right;
+	
+	
+}
+#ladoDerecho-index img{
+	width: 240px;
+	height: 350px;
+}
+	
+
+
+.noticias-centro{
+float: left;
+margin-left: 5px;
+padding-left: 10px;
+margin-right: 5px;
+padding-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 850px;
+height: auto;
+
+
+
+}
+
+
+.noticias-centro2{
+position: left;
+margin-left: 5px;
+padding-left: 10px;
+margin-right: 5px;
+padding-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 850px;
+height: auto;
+
+
+
+}
+
+#ladoAbajo-index{
+	width: 1100px;
+	height: auto;
+	margin:0 auto;
+	padding-bottom: 10px;
+	background-color:#7ccce5; 
+	color: white;
+	text-align: center;
+
+	}
+
+
+.linea{
+	border-top: 1px solid grey;
+}
+article a img{
+	width: 100%;
+	height: 180px;
+border-radius: 3px;
+}
+article a img:hover{
+	
+	box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+
+}
+	
+.extracto a{
+	color: black !important;
+		
+}
+#noti-centro{
+	position: relative;
+	left: 10px;
+}
+.contenedor-paginacion{
+	position: relative;
+	top: -25px;
+	width: 400px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.paginacion  ul li {
+		float:left;
+		
+		}
+			
+	.paginacion li a {
+		background-color:#000;
+		color:#fff;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+		border-left: 2px;
+		
+		
+	}
+	.disabled{	
+		background-color:grey;
+		color:#fff;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+	}
+	.active-paginacion{	
+		background-color: #FF8C00;
+		color:#fff;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+	}		
+	.paginacion li a:hover {
+		background-color: #FF8C00;
+		text-decoration: underline;
+	}
+			
+	
+.contenedor-noticias-single{
+	width:  1100px;
+	height: fit-content;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	display: flex;
+	}
+
+
+.post-single
+	{
+	width: 800px;
+	height: auto;
+	background-color:white;
+	margin: 0 auto;
+	box-shadow: 0.2px 0.2px 0.2px 0.2px #888888;
+	display: flex;
+	
+	}
+.post-single article
+	{
+	width: 800px;
+	height: 100%;
+	
+	}
+
+.post-single p{
+padding-left: 10px;
+
+}
+
+.post-single img{
+	width: 100%;
+	height: 500px;
+}
+#ladoDerecho-index-single{
+	width: 250px;
+	height: auto;
+	background-color:#ECEEEF;
+	float: right;
+	}
+	
+.contenedor-noticias-view{
+	width:  1100px;
+	display: flex;
+	margin: 0 auto;
+	}
+
+#session-imagenes{
+	width: 1050px;
+	height: 630px;
+	padding-left: 50px;
+
+}	
+.session-contenedor{
+	height: 300px;
+	width: 300px;
+	border-radius: 5px;
+	border: 0.5px solid #fff;
+	float: left;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom: 15px;
+	
+}
+.session-contenedor:hover{
+	box-shadow: 0.5px 0.5px 0.5px 0.5px grey;
+	
+}
+
+.contenedor-imagenes{
+	width: 100%;
+	height: 230px;
+
+}
+.seccionAbajo2{
+	height: 90px;
+	width: 850px;
+	padding-left: 70px;
+	margin-bottom: 35px;
+	background-color: green:;
+}
+
+.usuario{
+	width: 600px;
+	height: 400px;
+	background-color: white;
+	margin:0 auto;
+	border-radius: 5px;
+	box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+	text-align: center;
+
+}
+.form-linea{
+width: 292px;
+height: 60px;
+margin: 0 auto;
+
+}
+.image-form{
+	float: left;
+	height: 22px;
+	padding: 7px;
+	border: 1px solid grey;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-right: none;
+}
+
+.label-username{
+	color: grey;
+}
+.form-control{
+	height: 34px;
+	width: 250px;
+	border: 1px solid grey;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-left: none;
+	float: left;
+}
+.form-control:hover{
+	border-color:red;
+	box-shadow: 0.3px 0.3px 0.3px 0.3px red;
+}
+
+
+.imagenes-galeria{
+height: 230px;
+width: 300px;
+border-radius: 5px;
+}
+
+.imagenes-galeria:hover{
+box-shadow: 0.5px 0.5px 0.5px 0.5px grey;
+
+}
+
+.caption{
+	width: 300px;
+	height: 50px;
+	position: relative;
+	top: -10px;
+	color: white;
+
+}
+
+.session-imagenesGaleria{
+	width: 1050px;
+	height: 700px;
+	padding-left: 50px;
+}
+
+
+.buttonfb{
+	height: 50px;
+	width: 100px;
+	position: relative;
+	top:-10px;
+	left: 326px;
+}
+
+.buttong{
+	height: 50px;
+	width: 100px;
+	position: relative;
+	top:-78px;
+	left: 202px;
+}
+.buttontw{
+	height: 50px;
+	width: 100px;
+	position: relative;
+	top:-28px;
+	left: 110px;
+}
+h4 {
+    font-size: 18px;
+
+}
+
+	
+
+}
+a:hover {
+    color: orange;
+    }
+   .card-body {
+    -ms-flex: 1 1 auto;
+    padding: 1rem;
+    }
+
+   p {
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+    color: grey;
+    }
+
+    .slider-index {
+    font-size: 2rem !important;
+    line-height: 110%;
+    margin: 17.5rem 0 1.168rem 0 !important;
+    color: #fff;
+   	font-family: impact;
+	font-size: 40px;
+	letter-spacing: 0;
+	text-shadow: -3px -3px 3px #000, 3px -3px 3px #000, -3px 3px 3px #000, 3px 3px 3px #000;
+    }
+
+    .slider .indicators .indicator-item.active {
+    background-color: orange !important;
+}
+.imagencard {
+    max-width: 100%;
+    height: 16.500em !important;
+    }
+.card .card-content {
+    padding: 5px !important;
+    border-radius: 0 0 2px 2px;
+    height: 9.375em;
+    width: 100%;
+}
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: black !important;
+    }
+.page-footer .footer-copyright {
+	background-color:#FF8C00 !important;
+}
+.extracto-single{
+	padding: 5px;
+}
+

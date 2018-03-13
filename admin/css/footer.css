@@ -1,0 +1,167 @@
+		
+#contenedor-abajo{
+		margin: 0 auto;
+		float: bottom;
+		width: 1100px;
+		height: 303px;
+		background-color:black;
+		margin-top: 10px
+
+}
+
+#parte-arriba{
+		text-align: center;
+		background-color: #363534;
+		height: 50px;
+		padding-top:10px; 
+	}
+	
+#suscribete{
+		border:none;
+		height: 30px;
+		width: 250px;
+		border-radius: 4px;
+}
+	#suscribete:hover{
+		border-color: red;
+		border-radius: 4px;
+	}	
+label{
+		color: white;
+		font-weight: bold;
+		padding-right: 18px;
+	}	
+#button2{
+	height: 30px;
+	width: 120px;
+	background-color: red;
+	border: none;
+	border-radius: 3px;
+	color: white;
+
+	}
+	#button2:hover{
+		background-color: #A01217;
+	}
+	#secciones-abajo{
+		padding-top:10px;
+		width: 1100px;
+		height: 200px;
+		
+	}
+	#parte-izquierdo{
+		float: left;
+		width: 280px;
+		padding-left: 50px;
+		padding-right: 30px;
+		border-right: 0.2px solid white;
+		
+	}
+	#parte-centro{
+		float: left;
+		width: 280px;
+		padding-left: 50px;
+		padding-right: 30px;
+		border-right: 0.2px solid white;
+		
+	}
+	#footer-derecho{
+		width: 300px;
+		height: 150px;
+		float: left;
+		padding-left: 70px;
+
+		
+	}
+	.h5derecho{
+		color: white;
+		font-weight: bold;
+	}
+	.redes{
+		width: 230px;
+		height: 50px;
+		
+
+	}
+	.pderecho a{
+		color: white;
+		text-decoration: none;
+
+	}
+	.pderecho a:hover{
+		color: red;
+		
+	}
+	
+	#facebook{
+		float: left;
+	    width: 50px;
+		height: 50px;
+		background: url(http://localhost/proyectoUniversidad/imagenes/facebookn.png)no-repeat;
+		position: relative;
+		left: 5px;
+		
+	}
+	#facebook:hover{
+		background: url(http://localhost/proyectoUniversidad/imagenes/facebook.png) no-repeat;
+		
+	}
+	
+	#google{
+		float: left;
+		padding: 3px;
+		width: 50px;
+		height: 50px;
+		position: relative;
+		left: 20px;
+		background: url(http://localhost/proyectoUniversidad/imagenes/googlen.png)no-repeat;
+	}
+	#google:hover{
+		background: url(http://localhost/proyectoUniversidad/imagenes/google.png)no-repeat;
+		
+	}
+	#twitter{
+		float: left;
+		padding: 3px;
+		width: 50px;
+		height: 50px;
+		position: relative;
+		left: 15px;
+		background: url(http://localhost/proyectoUniversidad/imagenes/twittern.png)no-repeat;
+	}
+	#twitter:hover{
+		background: url(http://localhost/proyectoUniversidad/imagenes/twitter.png)no-repeat;
+	}
+	#instagram{
+		float: left;
+		padding: 3px;
+		width: 50px;
+		height: 50px;
+		position: relative;
+		left: 10px;
+		background: url(http://localhost/proyectoUniversidad/imagenes/instagramn.png)no-repeat;
+	}
+	#instagram:hover{
+		background: url(http://localhost/proyectoUniversidad/imagenes/instagram.png)no-repeat;
+		
+		}
+	#footer-derechos{
+	text-align: center;	
+	height: 53px;
+	border-bottom: 5px solid orange;
+	background-color: orange;
+	
+	}
+	
+	#footer-derechos p{
+		color: white;
+		padding-top: 20px;
+		
+	}
+	#footer-derechos p a{
+		
+		padding-left: 600px;
+		text-decoration: none;
+		color: white;
+		
+	}
